@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS students;
+
+CREATE TABLE students (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER,
+    email TEXT
+);
+
+INSERT INTO students (id, name, age, email)
+VALUES (1, 'Deepika', 20, 'deepika@gmail.com');
+
+INSERT INTO students (id, name, age, email)
+VALUES (2, 'Anu', 21, 'anu@gmail.com');
+
+SELECT * FROM students;
